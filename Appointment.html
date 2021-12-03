@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Apointment </title>
+    <link rel="stylesheet" href="Rstyle.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Book an appointment</div>
+    <div class="content">
+      <form action="https://formspree.io/f/mgepqgyo" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Company</span>
+            <input type="text" placeholder="Enter the brand name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email-ID" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Issues faced</span>
+            <input type="text" placeholder="Describe the issues" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Contact no.</span>
+            <input type="text" placeholder="Enter your mobile no." required>
+          </div>
+          <div class="input-box">
+            <span class="details">Appliances category</span>
+            <input type="text" placeholder="(For eg: T.V., Smart Phone, etc. )" required>
+          </div>
+        </div>
+        <div class="warranty-details">
+          <input type="radio" name="warranty" id="dot-1">
+          <input type="radio" name="warranty" id="dot-2">
+          <input type="radio" name="warranty" id="dot-3">
+          <span class="gender-title">Warranty Status</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="warranty">Under Warranty</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="warranty">Expiring in a week</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="warranty">Expired</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Schedule appointment">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
